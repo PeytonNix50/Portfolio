@@ -1,0 +1,96 @@
+#header {
+    margin-top: 100px;
+    margin-bottom: 100px;
+    text-align: center;
+    font-family: 'Dancing Script', cursive;
+    font-size: 75px;
+}
+
+body{
+    background: url(https://images.unsplash.com/photo-1472289065668-ce650ac443d2?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+#about {
+    text-align: center;
+    margin: 0 auto;
+    font-family: 'Indie Flower', cursive;
+    font-size: 50px;
+}
+
+.card {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+#allCards {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-left: 125px;
+}
+
+#aboutMe {
+    text-align: center;
+    margin-left: 200px;
+    margin-right: 200px;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 30px;
+    border: 2px solid;
+    border-radius: 20px;
+    background-color: white;
+}
+
+.card-body {
+    font-family: 'Roboto Mono', monospace;
+    text-align: center;
+    font-size: 20px;
+}
+
+#contactHeader {
+    text-align: center;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 48px;
+}
+
+#contactList {
+    /* display: flex;
+    flex-direction: row;
+    flex-wrap: wrap; */
+    margin-left: auto;
+    margin-right: auto;
+    list-style: none;
+    /* text-align: center; */
+    margin-left: 750px;
+}
+
+.contactInfo {
+    margin-top: 30px;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 24px;
+}
+
+footer {
+    margin-top: 100px;
+    text-align: center;
+    font-family: 'Roboto Mono', monospace;
+}
+
+.nav-link {
+    font-family: 'Roboto Mono', monospace;
+    background-color: black;
+    color: #f4bf00;
+}
+
+#card-text {
+    margin: 0 auto;
+}
+
+/* #card-img-top {
+    width: 100px;
+    height: auto;
+} */
